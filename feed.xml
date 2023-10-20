@@ -3,7 +3,7 @@
     <title>Portfolio | Martin Scheifinger</title>
     <link href="https://4rr0wx.github.io/portfolio/feed.xml" rel="self" />
     <link href="https://4rr0wx.github.io/portfolio" />
-    <updated>2023-10-20T13:48:11+02:00</updated>
+    <updated>2023-10-20T17:03:53+02:00</updated>
     <author>
         <name>Martin Scheifinger</name>
     </author>
@@ -17,12 +17,13 @@
         <link href="https://4rr0wx.github.io/portfolio/autocompose/"/>
         <id>https://4rr0wx.github.io/portfolio/autocompose/</id>
         <media:content url="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" medium="image" />
+            <category term="IT-Projekte"/>
 
-        <updated>2023-10-20T13:48:11+02:00</updated>
+        <updated>2023-10-20T17:03:53+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" alt="" />
-                    Ein kleines Skript, das einen Docker-Run-Befehl basierend auf dem Befehl von magicmark/composerize in eine Docker-Compose-Datei konvertiert. Nach der konvertierung wird der Benutzer gefragt ob er den erstellten Stack starten will Github|autocompose Ausgeführtes Script
+                    Ein kleines Skript, das einen Docker-Run-Befehl basierend auf dem Befehl von magicmark/composerize in eine Docker-Compose-Datei konvertiert. Nach der konvertierung wird der Benutzer gefragt ob er&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -31,6 +32,57 @@
                 <p>Ein kleines Skript, das einen Docker-Run-Befehl basierend auf dem Befehl von magicmark/composerize  in eine Docker-Compose-Datei konvertiert. Nach der konvertierung wird der Benutzer gefragt ob er den erstellten Stack starten will</p>
 <p><a href="https://github.com/4rr0wx/autocompose" target="_blank" rel="noopener noreferrer">Github|autocompose</a></p>
 <figure class="post__image"><img loading="lazy"  src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA.png" alt="Beispielausführung" width="1113" height="596" sizes="100vw" srcset="https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xs.png 300w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-sm.png 480w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-md.png 768w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-lg.png 1024w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xl.png 1360w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-2xl.png 1600w"><figcaption>Ausgeführtes Script</figcaption></figure>
+<p>Script:</p>
+<pre class="language-bash"><code>#!/bin/bash
+
+#Author: Martin Scheifinger
+#This is a script that utilizes the composerize command developed by magicmark to turn a docker run command into a compose file and optionally starts the stack.
+
+if [ "$1" = "-h" ] || [ "$1" = "-help" ]
+ then
+	echo "This is a script that utilizes the composerize command developed by magicmark to turn a docker run command into a compose file and optionally starts the stack."
+	echo "Usage:"
+	echo "autocompose -h  Displays this help message"
+	echo "autocompose to run command"
+	exit 0
+fi
+
+if ! command -v composerize &amp;&gt; /dev/null
+then
+    echo "composerize could not be found or is not installed"
+    echo "Do you want to install composerize automatically (y/N)"
+	read choice
+	if [ "$choice" = "y" ]
+		then
+			sudo npm install composerize -g
+		else
+			echo "Please manually install composerize"
+			echo "More Information on how to install is on it's Github page."
+			exit 0
+	fi
+fi
+
+
+echo "Please enter the Docker run command (including \"docker run\"):"
+read docker_run
+
+composerize "$docker_run" 1&gt; "./docker-compose.yml"
+
+echo "Following Compose File has been created:"
+cat docker-compose.yml
+
+
+echo "Do you want to start the created compose file(y/N):"
+read choice
+if [ "$choice" = "y" ]
+then
+	sudo docker-compose up
+else
+	echo "Compose File generated but it hasn't been startet yet!"
+	echo "Script will now exit"
+	exit 0
+fi
+</code></pre>
             ]]>
         </content>
     </entry>
@@ -43,11 +95,11 @@
         <id>https://4rr0wx.github.io/portfolio/hi/</id>
         <media:content url="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" medium="image" />
 
-        <updated>2023-10-20T13:17:28+02:00</updated>
+        <updated>2023-10-20T16:54:37+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" alt="" />
-                    Über mich Ich bin Martin und ein begeisterter Student im Bereich IT-Infrastruktur. Mein Weg begann mit dem erfolgreichen Abschluss der HTL im Bereich Elektrotechnik mit dem Schwerpunkt Lichttechnik. Während meiner Studienzeit habe ich spannende Projekte realisiert und wertvolle Erfahrungen gesammelt. Einige Sommer verbrachte ich in der Veranstaltungstechnik, wo ich als Ton- und Lichttechniker mitgewirkt habe. Einige meiner stolzesten Projekte umfassen meine Diplomarbeit "Smart Garden," in der meine Kollegen und ich einen Garten mit Smart-Home Integration entwickelten. Zudem hatte ich das Privileg, als Ton- und Lichttechniker bei den Raimundspielen in Gutenstein mitzuwirken. Meine weiteren Projekte finden Sie im Menü rechts oben. Meine Leidenschaft liegt darin, die Zukunft der IT-Infrastruktur zu gestalten und Lösungen zu entwickeln, die die Welt von morgen antreiben. Ich bin davon überzeugt, dass die richtige Technologie die Grundlage für bahnbrechende Innovationen bildet. Professionell mit einem Hauch von Humor - das ist meine Philosophie. Ich glaube daran, dass Technologie nicht nur leistungsstark, sondern auch zugänglich und unterhaltsam sein sollte. Mein Portfolio spiegelt diese Einstellung wider. Ich lade Sie ein, mein LinkedIn-Profil zu besuchen, um mehr über meine berufliche Laufbahn und Kontaktdetails zu erfahren: LinkedIn Profil. Lassen Sie uns gemeinsam die Zukunft der IT-Infrastruktur gestalten!
+                    Über mich Ich bin Martin und ein begeisterter Student im Bereich IT-Infrastruktur. Mein Weg begann mit dem erfolgreichen Abschluss der HTL im Bereich Elektrotechnik mit&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -59,7 +111,7 @@
     </h2>
 
   <p>
-    Ich bin Martin und ein begeisterter Student im Bereich IT-Infrastruktur. Mein Weg begann mit dem erfolgreichen Abschluss der HTL im Bereich Elektrotechnik mit dem Schwerpunkt Lichttechnik. Während meiner Studienzeit habe ich spannende Projekte realisiert und wertvolle Erfahrungen gesammelt. Einige Sommer verbrachte ich in der Veranstaltungstechnik, wo ich als Ton- und Lichttechniker mitgewirkt habe.
+    Ich bin Martin und ein begeisterter Student im Bereich IT-Infrastruktur. Mein Weg begann mit dem erfolgreichen Abschluss der HTL im Bereich Elektrotechnik mit dem Schwerpunkt Lichttechnik. Während meiner Studienzeit habe ich bereits spannende Projekte realisiert und wertvolle Erfahrungen gesammelt. Einige Sommer verbrachte ich in der Veranstaltungstechnik, wo ich als Ton- und Lichttechniker mitgewirkt habe.
   </p>
 
     <h2 id="meine-projekte">
