@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Portfolio | Martin Scheifinger</title>
-    <link href="https://4rr0wx.github.io/portfolio/feed.xml" rel="self" />
-    <link href="https://4rr0wx.github.io/portfolio" />
+    <link href="https://4rr0wx.com/feed.xml" rel="self" />
+    <link href="https://4rr0wx.com" />
     <updated>2023-10-20T17:36:48+02:00</updated>
     <author>
         <name>Martin Scheifinger</name>
     </author>
-    <id>https://4rr0wx.github.io/portfolio</id>
+    <id>https://4rr0wx.com</id>
 
     <entry>
         <title>Autocompose</title>
         <author>
             <name>Martin Scheifinger</name>
         </author>
-        <link href="https://4rr0wx.github.io/portfolio/autocompose/"/>
-        <id>https://4rr0wx.github.io/portfolio/autocompose/</id>
-        <media:content url="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" medium="image" />
+        <link href="https://4rr0wx.com/autocompose/"/>
+        <id>https://4rr0wx.com/autocompose/</id>
+        <media:content url="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" medium="image" />
             <category term="IT-Projekte"/>
 
         <updated>2023-10-20T17:03:53+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" alt="" />
+                        <img src="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" alt="" />
                     Ein kleines Skript, das einen Docker-Run-Befehl basierend auf dem Befehl von magicmark/composerize in eine Docker-Compose-Datei konvertiert. Nach der konvertierung wird der Benutzer gefragt ob er&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" class="type:primaryImage" alt="" /></p>
                 <p>Ein kleines Skript, das einen Docker-Run-Befehl basierend auf dem Befehl von magicmark/composerize  in eine Docker-Compose-Datei konvertiert. Nach der konvertierung wird der Benutzer gefragt ob er den erstellten Stack starten will</p>
 <p><a href="https://github.com/4rr0wx/autocompose" target="_blank" rel="noopener noreferrer">Github|autocompose</a></p>
-<figure class="post__image"><img loading="lazy"  src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA.png" alt="Beispielausführung" width="1113" height="596" sizes="100vw" srcset="https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xs.png 300w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-sm.png 480w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-md.png 768w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-lg.png 1024w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xl.png 1360w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-2xl.png 1600w"><figcaption>Ausgeführtes Script</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA.png" alt="Beispielausführung" width="1113" height="596" sizes="100vw" srcset="https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xs.png 300w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-sm.png 480w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-md.png 768w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-lg.png 1024w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xl.png 1360w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-2xl.png 1600w"><figcaption>Ausgeführtes Script</figcaption></figure>
 <p>Script:</p>
 <pre class="language-bash"><code>#!/bin/bash
 
@@ -91,20 +91,20 @@ fi
         <author>
             <name>Martin Scheifinger</name>
         </author>
-        <link href="https://4rr0wx.github.io/portfolio/hi/"/>
-        <id>https://4rr0wx.github.io/portfolio/hi/</id>
-        <media:content url="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" medium="image" />
+        <link href="https://4rr0wx.com/hi/"/>
+        <id>https://4rr0wx.com/hi/</id>
+        <media:content url="https://4rr0wx.com/media/posts/1/22.04.2023-86-HDR_edited.jpg" medium="image" />
 
         <updated>2023-10-20T17:36:48+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" alt="" />
+                        <img src="https://4rr0wx.com/media/posts/1/22.04.2023-86-HDR_edited.jpg" alt="" />
                     Über mich Ich bin Martin und ein begeisterter Student im Bereich IT-Infrastruktur. Mein Weg begann mit dem erfolgreichen Abschluss der HTL im Bereich Elektrotechnik mit&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://4rr0wx.com/media/posts/1/22.04.2023-86-HDR_edited.jpg" class="type:primaryImage" alt="" /></p>
                 
     <h2 id="ueber-mich">
       Über mich
@@ -119,7 +119,7 @@ fi
     </h2>
 
   <p>
-    Einige meiner stolzesten Projekte umfassen meine Diplomarbeit "Smart Garden," in der meine Kollegen und ich einen Garten mit Smart-Home Integration entwickelten. Zudem hatte ich das Privileg, als Ton- und Lichttechniker bei den <a href="https://4rr0wx.github.io/portfolio/raimundspiele-gutenstein/">Raimundspielen in Gutenstein</a> mitzuwirken. Hier finden Sie eine kurze Zusammenfassung über meine <a href="https://4rr0wx.github.io/portfolio/tags/it-projekte/">IT-Projekte</a>
+    Einige meiner stolzesten Projekte umfassen meine Diplomarbeit "Smart Garden," in der meine Kollegen und ich einen Garten mit Smart-Home Integration entwickelten. Zudem hatte ich das Privileg, als Ton- und Lichttechniker bei den <a href="https://4rr0wx.com/raimundspiele-gutenstein/">Raimundspielen in Gutenstein</a> mitzuwirken. Hier finden Sie eine kurze Zusammenfassung über meine <a href="https://4rr0wx.com/tags/it-projekte/">IT-Projekte</a>
   </p>
 
     <h2 id="empowering-the-future-of-it-infrastructure">
