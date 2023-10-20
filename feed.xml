@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Portfolio | Martin Scheifinger</title>
-    <link href="https://4rr0wx.github.io/portfolio/feed.xml" rel="self" />
-    <link href="https://4rr0wx.github.io/portfolio" />
+    <link href="https://4rr0wx.com/feed.xml" rel="self" />
+    <link href="https://4rr0wx.com" />
     <updated>2023-10-20T13:48:11+02:00</updated>
     <author>
         <name>Martin Scheifinger</name>
     </author>
-    <id>https://4rr0wx.github.io/portfolio</id>
+    <id>https://4rr0wx.com</id>
 
     <entry>
         <title>Autocompose</title>
         <author>
             <name>Martin Scheifinger</name>
         </author>
-        <link href="https://4rr0wx.github.io/portfolio/autocompose/"/>
-        <id>https://4rr0wx.github.io/portfolio/autocompose/</id>
-        <media:content url="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" medium="image" />
+        <link href="https://4rr0wx.com/autocompose/"/>
+        <id>https://4rr0wx.com/autocompose/</id>
+        <media:content url="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" medium="image" />
 
         <updated>2023-10-20T13:48:11+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" alt="" />
+                        <img src="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" alt="" />
                     Ein kleines Skript, das einen Docker-Run-Befehl basierend auf dem Befehl von magicmark/composerize in eine Docker-Compose-Datei konvertiert. Nach der konvertierung wird der Benutzer gefragt ob er den erstellten Stack starten will Github|autocompose Ausgeführtes Script
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA-2.png" class="type:primaryImage" alt="" /></p>
                 <p>Ein kleines Skript, das einen Docker-Run-Befehl basierend auf dem Befehl von magicmark/composerize  in eine Docker-Compose-Datei konvertiert. Nach der konvertierung wird der Benutzer gefragt ob er den erstellten Stack starten will</p>
 <p><a href="https://github.com/4rr0wx/autocompose" target="_blank" rel="noopener noreferrer">Github|autocompose</a></p>
-<figure class="post__image"><img loading="lazy"  src="https://4rr0wx.github.io/portfolio/media/posts/6/WindowsTerminal_Q4QZ4op1sA.png" alt="Beispielausführung" width="1113" height="596" sizes="100vw" srcset="https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xs.png 300w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-sm.png 480w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-md.png 768w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-lg.png 1024w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xl.png 1360w ,https://4rr0wx.github.io/portfolio/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-2xl.png 1600w"><figcaption>Ausgeführtes Script</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://4rr0wx.com/media/posts/6/WindowsTerminal_Q4QZ4op1sA.png" alt="Beispielausführung" width="1113" height="596" sizes="100vw" srcset="https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xs.png 300w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-sm.png 480w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-md.png 768w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-lg.png 1024w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-xl.png 1360w ,https://4rr0wx.com/media/posts/6/responsive/WindowsTerminal_Q4QZ4op1sA-2xl.png 1600w"><figcaption>Ausgeführtes Script</figcaption></figure>
             ]]>
         </content>
     </entry>
@@ -39,20 +39,20 @@
         <author>
             <name>Martin Scheifinger</name>
         </author>
-        <link href="https://4rr0wx.github.io/portfolio/hi/"/>
-        <id>https://4rr0wx.github.io/portfolio/hi/</id>
-        <media:content url="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" medium="image" />
+        <link href="https://4rr0wx.com/hi/"/>
+        <id>https://4rr0wx.com/hi/</id>
+        <media:content url="https://4rr0wx.com/media/posts/1/22.04.2023-86-HDR_edited.jpg" medium="image" />
 
         <updated>2023-10-20T13:17:28+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" alt="" />
+                        <img src="https://4rr0wx.com/media/posts/1/22.04.2023-86-HDR_edited.jpg" alt="" />
                     Über mich Ich bin Martin und ein begeisterter Student im Bereich IT-Infrastruktur. Mein Weg begann mit dem erfolgreichen Abschluss der HTL im Bereich Elektrotechnik mit dem Schwerpunkt Lichttechnik. Während meiner Studienzeit habe ich spannende Projekte realisiert und wertvolle Erfahrungen gesammelt. Einige Sommer verbrachte ich in der Veranstaltungstechnik, wo ich als Ton- und Lichttechniker mitgewirkt habe. Einige meiner stolzesten Projekte umfassen meine Diplomarbeit "Smart Garden," in der meine Kollegen und ich einen Garten mit Smart-Home Integration entwickelten. Zudem hatte ich das Privileg, als Ton- und Lichttechniker bei den Raimundspielen in Gutenstein mitzuwirken. Meine weiteren Projekte finden Sie im Menü rechts oben. Meine Leidenschaft liegt darin, die Zukunft der IT-Infrastruktur zu gestalten und Lösungen zu entwickeln, die die Welt von morgen antreiben. Ich bin davon überzeugt, dass die richtige Technologie die Grundlage für bahnbrechende Innovationen bildet. Professionell mit einem Hauch von Humor - das ist meine Philosophie. Ich glaube daran, dass Technologie nicht nur leistungsstark, sondern auch zugänglich und unterhaltsam sein sollte. Mein Portfolio spiegelt diese Einstellung wider. Ich lade Sie ein, mein LinkedIn-Profil zu besuchen, um mehr über meine berufliche Laufbahn und Kontaktdetails zu erfahren: LinkedIn Profil. Lassen Sie uns gemeinsam die Zukunft der IT-Infrastruktur gestalten!
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://4rr0wx.github.io/portfolio/media/posts/1/22.04.2023-86-HDR_edited.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://4rr0wx.com/media/posts/1/22.04.2023-86-HDR_edited.jpg" class="type:primaryImage" alt="" /></p>
                 
     <h2 id="ueber-mich">
       Über mich
